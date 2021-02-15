@@ -1,0 +1,1 @@
+SELECT name FROM cliente JOIN factura ON cliente.cliente_id=factura.id_factura where factura.subtotal IN (SELECT MAX(subtotal) FROM factura);

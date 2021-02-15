@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM cliente JOIN listado_producto ON cliente.cliente_id = listado_producto.id where listado_producto.id = 6;
